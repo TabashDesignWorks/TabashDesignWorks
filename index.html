@@ -686,7 +686,7 @@
 </div>
 </div>
 			
-			<style>
+<style>
   .fancybox-content-wrapper {
     display: flex;
     flex-direction: row;
@@ -726,13 +726,16 @@
     .fancybox-description {
       max-width: 100%;
       padding-left: 0; /* Remove padding on mobile */
+      margin-left: auto;
+      margin-right: auto;
     }
 
     .fancybox-description {
-      text-align: center;
+      text-align: left; /* This was previously set to center — fix that */
     }
   }
 </style>
+
 
 
 			
